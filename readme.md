@@ -2,6 +2,9 @@
 
 ## Submitted by: Wilson Esmundo
 
+To view in GitHub <br>
+Please click [here](https://github.com/charliegucci/T2A1)
+
 ### Q1. Describe the architecture of a typical Rails application
 
 ---
@@ -143,7 +146,41 @@ Testing, Quality Assurance,and Quality Control<br/>
 
 ---
 
+#### Common Methods of Protecting Information and Data
+
+| Methods          | Description                                                                                                                                                                                                                                                                                                                                                                                                        |
+| :--------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Risk Assessments | The riskier the data, the more protection it has to be afforded. Sensitive data should be closely guarded, whereas low-risk data can be afforded less protection. The major reason for these assessments is the cost benefit, as better data security equals greater expense. It is a good test to determine what data needs to be guarded more closely and makes the whole data processing system more efficient. |
+| Backups          | Backups are a method of preventing data loss that can often occur either due to user error or technical malfunction. Backups should be performed in accordance with the principle of priority such data of low-importance does not have to be backed up as often, but sensitive data does. Backups should be regularly made and updated.                                                                           |
+| Encryption       | High-risk data is the prime candidate for encryption every step on the way. Well-encrypted data is inherently safe; even in cases of a data breach, the data will be useless and irrecoverable to attackers.                                                                                                                                                                                                       |
+| Pseudonymisation | Pseudonymisation is another method that increases data security and privacy of the individuals. It consists of stripping identifying information from snippets of data which will make the data impossible to link together. You are still left with somewhat useful data, but it does not contain sensitive identifiable information anymore.                                                                     |
+| Access Controls  | The fewer people have access to the data, the lesser the risk of data breach or loss. You should ensure that you give access to sensitive data only to trustworthy employees who have a valid reason to access it.                                                                                                                                                                                                 |
+| Destruction      | Data destruction might not seem like a protection method at a first glance, but in fact it is.There will be a point in time that you need to destroy your data hence data is being protected this way against unauthorised recovery and access.                                                                                                                                                                    |
+
+### Q8. Research what your legal obligations are in relation to handling user data
+
+---
+
+#### According to Data Integration - Roles and responsibilities of data users (Australian Government)
+
+| #          | Obligations                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+| :--------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Data Users | Has the right to consult with data custodians and the integrating authority on any material changes or updates to a data integration project (regardless of whether changes originate from data custodians or integrating authorities). This will occur before data users start examining integrated datasets. The consultation is likely to include issues raised by integrating authorities such as the technical feasibility of the project or the limitations of data use.                                                                                                                                                             |
+| Data Users | are entitled to receive appropriate training covering high level statistical integration principles, governance and institutional arrangements, data protocols (e.g., ethical approval processes in the case of human-based health research), legislative frameworks and security requirements. This training will be facilitated by integrating authorities. Course material will also be determined by integrating authorities, with possible input, advice and assistance provided by data custodians. Data users can also expect to access a range of self-help tools to enhance their understanding of the Commonwealth arrangements. |
+| Data Users | must be aware of, and understand, sanctions which apply for attempts to identify (or re-identify) individuals or organisations; disseminating outputs that enable the identification of individuals or organisations; or the misuse of data.                                                                                                                                                                                                                                                                                                                                                                                               |
+| Data Users | has the right to be informed by data custodians of the project status (i.e. approval or disapproval). Data custodians have the right to approve or disapprove a project proposal, in whole or in part. This decision could take into consideration the technical feasibility assessment made by integrating authorities. Data custodians may also need to prioritise and schedule data extraction work associated with project proposals, taking into account the range of data extraction requests that may be outstanding at the time.                                                                                                   |
+| Data Users | have a responsibility to pay cost recovery payments to data custodians, where applicable.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| Data Users | are responsible for ensuring that datasets are used for the approved purposes only. This is facilitated by practices which help avoid the misinterpretation of data. Examples include the testing of assumptions made in respect of the data by researchers and the supply of appropriate metadata by data custodians.                                                                                                                                                                                                                                                                                                                     |
+
+<br/>
+
+### Q9. Describe the structural aspects of the relational database model. Your description should include information about the structure in which data is stored and how relations are represented in that structure.
+
+---
+
 ### Reference:
+
+---
 
 - Ruby on Rails Architectural Design, Adrian Mejia, https://adrianmejia.com/ruby-on-rails-architectural-design/<br/>
 - SQLite Advantages (JavaTpoint), https://www.javatpoint.com/sqlite-advantages-and-disadvantages <br/>
@@ -151,4 +188,6 @@ Testing, Quality Assurance,and Quality Control<br/>
 - The Ultimate Guide to Implementing Agile Project Management (and Scrum), Jory MacKay, https://plan.io/blog/ultimate-guide-to-implementing-agile-project-management-and-scrum/ <br/>
 - What Software Developers Should Know About Source Control, John Sonmez, https://simpleprogrammer.com/software-developers-know-source-control/ <br/>
 - Software Testing - Quick Guide, Tutorial Point, https://www.tutorialspoint.com/software_testing/software_testing_quick_guide.htm<br/>
-- Standard for Security requirements of information system,UNC Charlotte, https://itservices.uncc.edu/iso/standard-security-requirements-information-systems
+- Standard for Security requirements of information system,UNC Charlotte, https://itservices.uncc.edu/iso/standard-security-requirements-information-systems<br/>
+- 6 Essential Data Protection Methods,GDPR Informer, https://gdprinformer.com/gdpr-articles/6-essential-data-protection-methods <br/>
+- Data Integration - Roles and responsibilities of data users, Australian Government, https://toolkit.data.gov.au/Data_Integration_-_Roles_and_responsibilities_of_data_users.html <br/>
