@@ -2,12 +2,14 @@
 
 ## Submitted by: Wilson Esmundo
 
-To view in GitHub <br>
+To view in GitHub <br/>
 Please click [here](https://github.com/charliegucci/T2A1)
 
 ### Q1. Describe the architecture of a typical Rails application
 
 ---
+
+<br/>
 
 Rails architecture has the following features:<br>
 
@@ -24,6 +26,8 @@ Rails architecture has the following features:<br>
 |                              | Convention over configuration                                                                                                                                                                                                                                                                                                                                                                                             |
 |                              | Scripts generators to automate tasks.                                                                                                                                                                                                                                                                                                                                                                                     |
 |                              | Use of YAML machine, which is a human-readable data serialization format.                                                                                                                                                                                                                                                                                                                                                 |
+
+<br/>
 
 ### Q2. Identify a database commonly used in web applications (including Rails) and discuss the pros and cons of this database
 
@@ -81,6 +85,7 @@ Rails architecture has the following features:<br>
 
 * What’s next? Decide what to focus on in your sprint retrospective<br/>
   - For Agile project management to work, you need to have a clear next step after each step. This is determined during your sprint retrospective. Once a sprint has been completed and features have been shown off, it’s time to decide what work gets done next.<br/>
+    <br/>
 
 ### Q4. Provide an overview and description of a standard source control process.
 
@@ -99,7 +104,7 @@ Rails architecture has the following features:<br>
 | Revisions                | It is the previous versions of a file that is contained within source control.                                                                 |
 | Branching                | It allows you to create a partial of the code example when you're working on a feature so it wont affect the master for possible errors.       |
 | Merging                  | It allows us to take all the changes we made on the version when we branch out, and merge them right into the master.                          |
-| Conflicts                | It occur when competing changes are made to the same line of a file, or when one person edits a file and another person deletes the same file. |
+| Conflicts                | It occur when competing changes are made to the same line of a file, or when one person edits a file and another person deletes the same file. | <br/> |
 
 <br/>
 
@@ -124,6 +129,7 @@ Testing, Quality Assurance,and Quality Control<br/>
 - Testing − It involves identifying bug/error/defect in a software without correcting it. Normally professionals with a quality assurance background are involved in bugs identification. Testing is performed in the testing phase.<br/>
 
 - Debugging − It involves identifying, isolating, and fixing the problems/bugs. Developers who code the software conduct debugging upon encountering an error in the code. Debugging is a part of White Box Testing or Unit Testing. Debugging can be performed in the development phase while conducting Unit Testing or in phases while fixing the reported bugs.<br/>
+  <br/>
 
 ### Q6. Discuss and analyse requirements related to information system security
 
@@ -138,7 +144,7 @@ Testing, Quality Assurance,and Quality Control<br/>
 | Authorization processes                                                           | is the process of establishing if the user (who is already authenticated), is permitted to have access to a resource. It determines what a user is and is not allowed to do. is a security mechanism used to determine user/client privileges or access levels related to system resources, including computer programs, files, services, data and application features. Authorization is normally preceded by authentication for user identity verification.                                                                                                                                                                                                                                                                           |
 | Communicated guidelines regarding user responsibilities when accessing the system | here are many methods to communicate the guidelines especially when outlining the responsibilities of the user such as thru memos, emails, letter or websites. These should include any non disclosure agreement or anything that will explain the obligation of the user in using the system.                                                                                                                                                                                                                                                                                                                                                                                                                                          |
 |                                                                                   | Protection of any associated data or assets including the availability, confidentiality and integrity of those assets.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
-|                                                                                   | Other security control mandates such as required interfaces to logging and monitoring systems                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+|                                                                                   | Other security control mandates such as required interfaces to logging and monitoring systems                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           | <br/> |
 
 <br/>
 
@@ -155,7 +161,9 @@ Testing, Quality Assurance,and Quality Control<br/>
 | Encryption       | High-risk data is the prime candidate for encryption every step on the way. Well-encrypted data is inherently safe; even in cases of a data breach, the data will be useless and irrecoverable to attackers.                                                                                                                                                                                                       |
 | Pseudonymisation | Pseudonymisation is another method that increases data security and privacy of the individuals. It consists of stripping identifying information from snippets of data which will make the data impossible to link together. You are still left with somewhat useful data, but it does not contain sensitive identifiable information anymore.                                                                     |
 | Access Controls  | The fewer people have access to the data, the lesser the risk of data breach or loss. You should ensure that you give access to sensitive data only to trustworthy employees who have a valid reason to access it.                                                                                                                                                                                                 |
-| Destruction      | Data destruction might not seem like a protection method at a first glance, but in fact it is.There will be a point in time that you need to destroy your data hence data is being protected this way against unauthorised recovery and access.                                                                                                                                                                    |
+| Destruction      | Data destruction might not seem like a protection method at a first glance, but in fact it is.There will be a point in time that you need to destroy your data hence data is being protected this way against unauthorised recovery and access.                                                                                                                                                                    | <br/> |
+
+<br/>
 
 ### Q8. Research what your legal obligations are in relation to handling user data
 
@@ -170,7 +178,7 @@ Testing, Quality Assurance,and Quality Control<br/>
 | Data Users | must be aware of, and understand, sanctions which apply for attempts to identify (or re-identify) individuals or organisations; disseminating outputs that enable the identification of individuals or organisations; or the misuse of data.                                                                                                                                                                                                                                                                                                                                                                                               |
 | Data Users | has the right to be informed by data custodians of the project status (i.e. approval or disapproval). Data custodians have the right to approve or disapprove a project proposal, in whole or in part. This decision could take into consideration the technical feasibility assessment made by integrating authorities. Data custodians may also need to prioritise and schedule data extraction work associated with project proposals, taking into account the range of data extraction requests that may be outstanding at the time.                                                                                                   |
 | Data Users | have a responsibility to pay cost recovery payments to data custodians, where applicable.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
-| Data Users | are responsible for ensuring that datasets are used for the approved purposes only. This is facilitated by practices which help avoid the misinterpretation of data. Examples include the testing of assumptions made in respect of the data by researchers and the supply of appropriate metadata by data custodians.                                                                                                                                                                                                                                                                                                                     |
+| Data Users | are responsible for ensuring that datasets are used for the approved purposes only. This is facilitated by practices which help avoid the misinterpretation of data. Examples include the testing of assumptions made in respect of the data by researchers and the supply of appropriate metadata by data custodians.                                                                                                                                                                                                                                                                                                                     | <br/> |
 
 <br/>
 
