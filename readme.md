@@ -186,6 +186,48 @@ Testing, Quality Assurance,and Quality Control<br/>
 
 ---
 
+#### Structure of Relational Database
+
+- A relational database consists of a collection of tables, each having a unique name. A row in a table represents a relationship among a set of values. Thus a table represents a collection of relationships. Data are stored in tables alongside related data points. Relationships between data are created via keys.<br/>
+
+![relation](docs/relation1.jpg)<br/>
+
+#### One-to-One
+
+- This the least common type of relationship, but it’s the easiest to visualize. In this relationship, there is one and only one record on each side of the relationship.<br/>
+  <br/>
+
+  ![relation](docs/relation2.jpg)<br/>
+
+#### One-to-Many
+
+- In this relationship, there is one record on one side of the relationship, and zero, one, or many on the other.<br/>
+
+![relation](docs/relation3.jpg)<br/>
+
+### Many-to-Many
+
+- This is the most flexible relationship type. There is zero, one, or many records on one side of the relationship, and zero, one, or many on the other.<br/>
+
+![relation](docs/relation4.jpg)<br/>
+<br/>
+
+### Q10. Describe the integrity aspects of the relational database model. Your description should include information about the types of data integrity and how they can be enforced in a relational database.
+
+---
+
+#### Relational databases require data and referential integrity, so the design must account for them.
+
+| Integrity              | Description                                                                                                                                                                                                                                                    |
+| :--------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Referential integrity  | means that relationships between tables must be consistent so that the foreign key in one table matches the primary key in a table that references it. Therefore, if any primary key is changed, then all foreign keys it references must be changed to match. |
+| Entity integrity       | Every table must have its own defined primary key, and that key in every row has to be unique and not be a null value.                                                                                                                                         |
+| Domain integrity       | All columns in tables must be in a domain that is defined. In other words, every value in the column has to meet the constraints set for that column.                                                                                                          |
+| User-defined integrity | refers to a set of rules specified by a user, which do not belong to the entity, domain and referential integrity categories.                                                                                                                                  |
+|                        |                                                                                                                                                                                                                                                                |
+
+### Q11. Describe the manipulative aspects of the relational database model. Your description should include information about the ways in which data is manipulated (added, removed, changed, and retrieved) in a relational database.
+
 ### Reference:
 
 ---
@@ -199,3 +241,4 @@ Testing, Quality Assurance,and Quality Control<br/>
 - Standard for Security requirements of information system,UNC Charlotte, https://itservices.uncc.edu/iso/standard-security-requirements-information-systems<br/>
 - 6 Essential Data Protection Methods,GDPR Informer, https://gdprinformer.com/gdpr-articles/6-essential-data-protection-methods <br/>
 - Data Integration - Roles and responsibilities of data users, Australian Government, https://toolkit.data.gov.au/Data_Integration_-_Roles_and_responsibilities_of_data_users.html <br/>
+- Relational Database Modeling: Scale to the Next Level in Models, Schema, and Design, https://www.smartsheet.com/relational-database-modeling <br/>
