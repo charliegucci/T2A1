@@ -228,6 +228,22 @@ Testing, Quality Assurance,and Quality Control<br/>
 
 ### Q11. Describe the manipulative aspects of the relational database model. Your description should include information about the ways in which data is manipulated (added, removed, changed, and retrieved) in a relational database.
 
+---
+
+| Data Manipulation |                                                                                                                                         Description                                                                                                                                         | Basic Syntax                                                                                                                          |
+| :---------------- | :-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------------------------------------------------------ |
+| INSERT statement  |                                                          is used to add one or more rows to a database table. It needs to specify the table we wish to insert rows into, the columns we wish to populate and the values to insert                                                           | INSERT INTO tableName (column1, column2, …)VALUES (value1, value2, …)                                                                 |
+| UPDATE statement  |                      is used to change a column value for one or more database table rows. It needs The tableName to update, The SET clause which specifies the columns to update and The WHERE clause, which specifies which rows to include in the update operation.                      | UPDATE tableName SET column1=value1, column2=value2,...WHERE filterColumn=filterValue                                                 |
+| DELETE statement  |                                                       is used to remove one or more rows from a database table. It needs The tableName to update and The WHERE clause, which specifies which rows to include in the update operation.                                                       | DELETE tableName WHERE filterColumn=filterValue;                                                                                      |
+| MERGE statement   | provides a means to perform, in one statement, an INSERT, UPDATE, or DELETE operation on one table based on source data from another. The main advantage to using the MERGE statement is that, when it executes it makes one pass through the data, as opposed to a pass for each operation | MERGE targetTable USING sourceTable ON joinCondition WHEN MATCHED --update WHEN NOT MATCHED --insert WHEN NOT MATCHED SOURCE --delete |
+|                   |                                                                                                                                                                                                                                                                                             |
+
+<br/>
+
+### Q12. Identify and explain the workings of TWO sorting algorithms and discuss and compare their performance/efficiency (i.e. Big O)
+
+---
+
 ### Reference:
 
 ---
@@ -242,3 +258,4 @@ Testing, Quality Assurance,and Quality Control<br/>
 - 6 Essential Data Protection Methods,GDPR Informer, https://gdprinformer.com/gdpr-articles/6-essential-data-protection-methods <br/>
 - Data Integration - Roles and responsibilities of data users, Australian Government, https://toolkit.data.gov.au/Data_Integration_-_Roles_and_responsibilities_of_data_users.html <br/>
 - Relational Database Modeling: Scale to the Next Level in Models, Schema, and Design, https://www.smartsheet.com/relational-database-modeling <br/>
+- Learn how to Add, Remove, or Modify values in a SQL Table, Essential SQL, https://www.essentialsql.com/introduction-sql-server-data-modification-statements/ <br/>
