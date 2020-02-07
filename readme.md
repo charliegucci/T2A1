@@ -244,6 +244,31 @@ Testing, Quality Assurance,and Quality Control<br/>
 
 ---
 
+| Sorting Algorithms |                                                                                                                                                                                                                                                                      Description                                                                                                                                                                                                                                                                       |   Average    |     Best     | Worst        |
+| :----------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :----------: | :----------: | :----------- |
+| Bubble Sort        | The simplest sorting algorithm is bubble sort. The bubble sort works by iterating down an array to be sorted from the first element to the last, comparing each pair of elements and switching their positions if necessary. This process is repeated as many times as necessary, until the array is sorted. Since the worst case scenario is that the array is in reverse order, and that the first element in sorted array is the last element in the starting array, the most exchanges that will be necessary is equal to the length of the array. |    O(n^2)    |    O(n^2)    | O(n^2)       |
+| Merge Sort         |      is the second guaranteed O(nlog(n)) sort we'll look at. It requires additional memory proportional to the size of the input for scratch space, but, unlike heap sort, merge sort is stable, meaning that "equal" elements are ordered the same once sorting is complete. It works using the principle that if you have two sorted lists, you can merge them together to form another sorted list. Consequently, sorting a large list can be thought of as a problem of sorting two smaller lists and then merging those two lists together.       | O(n\*log(n)) | O(n\*log(n)) | O(n\*log(n)) |
+|                    |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |              |              |              |
+
+### Q13. Identify and explain the workings of TWO search algorithms and discuss and compare their performance/efficiency (i.e. Big O)
+
+---
+
+| Searching Algorithms |                                     Linear Search                                      | Binary Search                                                                                      |
+| :------------------- | :------------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------------------- |
+| ==>                  |         A linear search scans one item at a time, without jumping to any item          | A binary search however, cut down your search to half as soon as you find middle of a sorted list. |
+| ==>                  |                         Input data doesn't needs to be sorted                          | Input data needs to be sorted                                                                      |
+| ==>                  |                               does the sequential access                               | access data randomly                                                                               |
+| ==>                  |                                 Time complexity -O(n)                                  | Time complexity O(log n)                                                                           |
+| ==>                  |                             performs equality comparisons                              | performs ordering comparisons                                                                      |
+| ==>                  | Time taken to search elements keep increasing as the number of elements are increased. | The middle element is looked to check if it is greater than or less than the value to be searched. |
+
+<br/>
+
+![linear](docs/linear.png)<br/>
+
+![binary](docs/binary.png)<br/>
+
 ### Reference:
 
 ---
@@ -259,3 +284,4 @@ Testing, Quality Assurance,and Quality Control<br/>
 - Data Integration - Roles and responsibilities of data users, Australian Government, https://toolkit.data.gov.au/Data_Integration_-_Roles_and_responsibilities_of_data_users.html <br/>
 - Relational Database Modeling: Scale to the Next Level in Models, Schema, and Design, https://www.smartsheet.com/relational-database-modeling <br/>
 - Learn how to Add, Remove, or Modify values in a SQL Table, Essential SQL, https://www.essentialsql.com/introduction-sql-server-data-modification-statements/ <br/>
+- Sorting Algorithm Comparison, Alex Allain, https://www.cprogramming.com/tutorial/computersciencetheory/sortcomp.html <br/>
