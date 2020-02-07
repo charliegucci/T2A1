@@ -285,3 +285,4 @@ Testing, Quality Assurance,and Quality Control<br/>
 - Relational Database Modeling: Scale to the Next Level in Models, Schema, and Design, https://www.smartsheet.com/relational-database-modeling <br/>
 - Learn how to Add, Remove, or Modify values in a SQL Table, Essential SQL, https://www.essentialsql.com/introduction-sql-server-data-modification-statements/ <br/>
 - Sorting Algorithm Comparison, Alex Allain, https://www.cprogramming.com/tutorial/computersciencetheory/sortcomp.html <br/>
+- Linear Search vs Binary Search, GeeksforGeeks, https://www.geeksforgeeks.org/linear-search-vs-binary-search/
