@@ -263,7 +263,11 @@ Testing, Quality Assurance,and Quality Control<br/>
 | ==>                  |                             performs equality comparisons                              | performs ordering comparisons                                                                      |
 | ==>                  | Time taken to search elements keep increasing as the number of elements are increased. | The middle element is looked to check if it is greater than or less than the value to be searched. |
 
+#### Linear
+
 ![linear](docs/Linear.png)<br/>
+
+#### Binary
 
 ![binary](docs/binary.png)<br/>
 
