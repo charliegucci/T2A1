@@ -271,6 +271,22 @@ Testing, Quality Assurance,and Quality Control<br/>
 
 ![binary](docs/binary.png)<br/>
 
+### Q14. Conduct research into a marketplace website (app) and answer the following parts:
+
+a. What software is used by the app?
+b. What hardware is used by the app?
+c. Describe the interaction of technologies within the app
+d. Describe the way data is structured within the app
+e. Identify entities which must be tracked by the app
+f. Identify the relationships and associations between the entities you have identified in part (e)
+g. Design a schema using an Entity Relationship Diagram (ERD) appropriate for the database of this website (assuming a relational database model)
+<br/>
+| Marketplace website | Ebay |
+| :------- | :-------------- |
+| What software is used by the app?| Adobe (Dreamweaver, Flash, Illustrator, Photoshop), Akka, Apache (Cassandra, Solr), Apigee, Atlassian JIRA, Bootstrap, CloudAMQP, Cloudinary, CollabNet TeamForge, Couchbase, CreateJS, DataStax, DbVisualizer, Delphix, Devart, Elastic Kibana, Elasticsearch, Fabric, GitHub, Git Tower, Google (Cloud Messaging, Maps), GupShup, InfluxData, and many others.|
+| What hardware is used by the app? | Web Servers, Application Servers, Search Servers, Data Servers and eBay has local partners in many countries who deliver eBay's static data to cut down on download time, and there are monitoring systems in 45 cities around the world that constantly scan for problems in the network.|
+| Describe the interaction of technologies within the app | The architecture is a type of grid computing that allows for both error correction and growth. With the exception of the search function, everything about eBay can actually run on approximately 50 servers -- Web servers, application servers and data-storage systems. Each server has between six and 12 microprocessors. These 50 or so servers run separately, but they talk to each other, so everybody knows if there is a problem somewhere. EBay can simply add servers to the grid as the need arises.|
+
 ### Reference:
 
 ---
