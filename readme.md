@@ -286,6 +286,11 @@ g. Design a schema using an Entity Relationship Diagram (ERD) appropriate for th
 | What software is used by the app?| Adobe (Dreamweaver, Flash, Illustrator, Photoshop), Akka, Apache (Cassandra, Solr), Apigee, Atlassian JIRA, Bootstrap, CloudAMQP, Cloudinary, CollabNet TeamForge, Couchbase, CreateJS, DataStax, DbVisualizer, Delphix, Devart, Elastic Kibana, Elasticsearch, Fabric, GitHub, Git Tower, Google (Cloud Messaging, Maps), GupShup, InfluxData, and many others.|
 | What hardware is used by the app? | Web Servers, Application Servers, Search Servers, Data Servers and eBay has local partners in many countries who deliver eBay's static data to cut down on download time, and there are monitoring systems in 45 cities around the world that constantly scan for problems in the network.|
 | Describe the interaction of technologies within the app | The architecture is a type of grid computing that allows for both error correction and growth. With the exception of the search function, everything about eBay can actually run on approximately 50 servers -- Web servers, application servers and data-storage systems. Each server has between six and 12 microprocessors. These 50 or so servers run separately, but they talk to each other, so everybody knows if there is a problem somewhere. EBay can simply add servers to the grid as the need arises.|
+|Identify entities which must be tracked by the app | User (Username,Email,Address), Product (Product Name, Description, Price, Image, Discount), Order, Order Details, Shopping Cart(Quantity, Date Added), Shipping Info(Shipping Type, Shipping Cost, Shipping Region)|
+| Identify the relationships and associations between the entities you have identified in part (e) | User has many Order Details, Order Details has one User, Order has many Order Details, Order Detail has one Order, Order has one Shipping Info, Shipping Info has one Order, Order has one Shopping Cart, Shopping Cart has one Order, AddtoCart has many Shopping Cart, Product has many AddtoCart, AddtoCart has one Shopping Cart and AddtoCart has one Product.|
+|g. Design a schema using an Entity Relationship Diagram (ERD) appropriate for the database of this website (assuming a relational database model)| see photo below. |
+|||
+![ERD](docs/erd.jpg)<br/>
 
 ### Reference:
 
@@ -303,4 +308,5 @@ g. Design a schema using an Entity Relationship Diagram (ERD) appropriate for th
 - Relational Database Modeling: Scale to the Next Level in Models, Schema, and Design, https://www.smartsheet.com/relational-database-modeling <br/>
 - Learn how to Add, Remove, or Modify values in a SQL Table, Essential SQL, https://www.essentialsql.com/introduction-sql-server-data-modification-statements/ <br/>
 - Sorting Algorithm Comparison, Alex Allain, https://www.cprogramming.com/tutorial/computersciencetheory/sortcomp.html <br/>
-- Linear Search vs Binary Search, GeeksforGeeks, https://www.geeksforgeeks.org/linear-search-vs-binary-search/
+- Linear Search vs Binary Search, GeeksforGeeks, https://www.geeksforgeeks.org/linear-search-vs-binary-search/ <br/>
+- How eBay Works, Julia Layton, https://computer.howstuffworks.com/internet/basics/ebay10.htm
