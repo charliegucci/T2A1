@@ -289,7 +289,6 @@ g. Design a schema using an Entity Relationship Diagram (ERD) appropriate for th
 |Identify entities which must be tracked by the app | User (Username,Email,Address), Product (Product Name, Description, Price, Image, Discount), Order, Order Details, Shopping Cart(Quantity, Date Added), Shipping Info(Shipping Type, Shipping Cost, Shipping Region)|
 | Identify the relationships and associations between the entities you have identified in part (e) | User has many Order Details, Order Details has one User, Order has many Order Details, Order Detail has one Order, Order has one Shipping Info, Shipping Info has one Order, Order has one Shopping Cart, Shopping Cart has one Order, AddtoCart has many Shopping Cart, Product has many AddtoCart, AddtoCart has one Shopping Cart and AddtoCart has one Product.|
 |g. Design a schema using an Entity Relationship Diagram (ERD) appropriate for the database of this website (assuming a relational database model)| see photo below. |
-|||
 ![ERD](docs/erd.jpg)<br/>
 
 ### Reference:
